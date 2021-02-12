@@ -37,7 +37,7 @@
 
 /* Layer image */
 .layerImg {
-    max-width: 25%;
+    width: 400px;
     position: absolute;
     z-index: 1;
     margin-left: 70%;
@@ -312,11 +312,7 @@ footer {
         height: auto;
     }
 
-    .mainGraphic {
-        display: none;
-    }
-
-    .layerImg {
+    .mainGraphic, .layerImg, .floral, .floral2, .floral3, .floralSidebar {
         display: none;
     }
 
