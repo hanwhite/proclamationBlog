@@ -5,6 +5,7 @@
     text-align: center;
     margin: -10px;
     top: -55px;
+    margin-top: 4%;
 }
 
 .container img {
@@ -34,28 +35,45 @@
     font: 15px 'Oxygen', sans-serif;
 }
 
+/* Layer image */
+.layerImg {
+    max-width: 25%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 70%;
+    margin-top: -150px;
+}
+
+
 /* INTRO STYLES */
-.container{
+.introContainer {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 4%;
+    flex-direction: row;
+    justify-content: start;
     background-color: #FFF1E6;
+    margin: -10px;
+    margin-bottom: 50px;
 }
 
 .topTitle {
-    width: 40%;
+    width: 35%;
     font: 30px 'Cormorant Garamond', serif;
     text-align: left;
-    margin-left: 8%;
+    margin-left: 4%;
+}
+
+.topTitle h1 {
+    text-align: left;
+
 }
 
 .info {
-    max-width: 40%;
+    max-width: 30%;
     font: 15px 'Oxygen', sans-serif;
     text-align: left;
     margin-top: 5%;
-    margin-right: 8%;
+    margin-left: 6%;
 }
 
 .seperator {
@@ -148,11 +166,15 @@ a {
     margin-top: 10px;
 }
 
-.contentContainer {
+.contentContainer, .contentContainerP3 {
     font: 20px 'Oxygen', sans-serif;
     padding: 3%;
     margin: auto;
     max-width: 100%;
+}
+
+.contentContainerP3 {
+    display: flex;
 }
 
 h2 {
@@ -166,6 +188,10 @@ h2 {
     justify-content: center;
     padding: 10px;
     margin-top: 15px;
+}
+
+.cont2 {
+    padding: 10px;
 }
 
 .paragraph {
@@ -186,6 +212,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 500px auto;
     background-position: center center;
+    width: 40%;
 }
 
 .paragraph3 {
@@ -197,19 +224,27 @@ h2 {
 
 .paragraphLong {
     text-align: left;
-    width: 95%;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
-.post-seperator {
+.post-seperator, .head-seperator {
     width: 90%;
     height: 1px;
     background-color: black;
     margin: auto;
 }
 
+.head-seperator {
+    width: 200%;
+    margin-left: -50px;
+}
+
 .mainGraphic {
-    max-width: 70%;
+    max-width: 50%;
     object-fit: cover;
+    display: none;
 }
 
 .miniGraphic {
@@ -219,6 +254,33 @@ h2 {
 
 .triangle {
     margin-top: -20px;
+}
+
+.floral {
+    max-width: 25%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -10%;
+    margin-left: 30%;
+}
+
+.floral2 {
+    max-width: 20%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -35%;
+}
+
+.floral3 {
+    max-width: 22%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 28%;
+    margin-top: -15%;
+}
+
+.floralSidebar {
+    margin-top: -7%;
 }
 
 footer {
@@ -251,6 +313,10 @@ footer {
     }
 
     .mainGraphic {
+        display: none;
+    }
+
+    .layerImg {
         display: none;
     }
 
