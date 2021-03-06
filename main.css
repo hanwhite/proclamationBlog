@@ -74,6 +74,12 @@
     text-align: left;
     margin-top: 5%;
     margin-left: 6%;
+    line-height: 200%;
+}
+
+.info a{
+    color: #012622;
+    text-decoration: underline;
 }
 
 .seperator {
@@ -197,7 +203,7 @@ h2 {
 .paragraph {
     text-align: left;
     padding: 20px;
-    width: 50%;
+    max-width: 65%;
 }
 
 .paragraph1 {
@@ -224,7 +230,7 @@ h2 {
 
 .paragraphLong {
     text-align: left;
-    width: 100%;
+    width: 98%;
     padding-bottom: 40px;
     padding-top: 10px;
 }
@@ -245,6 +251,11 @@ h2 {
     max-width: 50%;
     object-fit: cover;
     display: none;
+}
+
+.bannerGraphic {
+    max-width: 100%;
+    height: auto;
 }
 
 .miniGraphic {
@@ -277,6 +288,15 @@ h2 {
     z-index: 1;
     margin-left: 28%;
     margin-top: -15%;
+}
+
+.floral4 {
+    max-width: 30%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+    margin-left: 25px;
 }
 
 .floralSidebar {
