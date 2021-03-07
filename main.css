@@ -152,6 +152,16 @@ a {
     text-decoration: none;
 }
 
+.buttonContainer{
+    display: flex;
+    max-width: 100%;
+}
+
+.sidebarLeft, .sidebarRight {
+    width: 20%;
+    height: 20%;
+}
+
 /* POSTS */
 
 .titleContainer {
@@ -309,9 +319,8 @@ h2 {
 }
 
 footer {
-    height: 80px;
+    height: 150px;
     background-color: #CB997E;
-    margin-top: 50px;
 }
 
 
