@@ -65,8 +65,9 @@
 
 .topTitle {
     width: 35%;
-    font: 30px 'Cormorant Garamond', serif;
+    font: 25px 'Cormorant Garamond', serif;
     text-align: left;
+    letter-spacing: 1.5px;
     margin-left: 4%;
 }
 
